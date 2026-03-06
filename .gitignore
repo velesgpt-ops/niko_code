@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+results/*.json
+.ipynb_checkpoints/
