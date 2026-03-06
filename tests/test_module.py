@@ -157,7 +157,7 @@ class TestPageScraper:
 
 
 class TestDuckDuckGoProvider:
-    @patch("duckduckgo_search.DDGS")
+    @patch("ddgs.DDGS")
     def test_search(self, mock_ddgs_cls):
         """Тест DuckDuckGo провайдера."""
         mock_ddgs = MagicMock()

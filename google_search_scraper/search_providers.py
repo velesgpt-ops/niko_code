@@ -40,7 +40,7 @@ class DuckDuckGoProvider(SearchProvider):
     """
 
     def search(self, query: str, num_results: int = 30) -> list[SearchResult]:
-        from duckduckgo_search import DDGS
+        from ddgs import DDGS
 
         results = []
         try:
